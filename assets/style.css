@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #00F3FF;
+    --secondary-color: #3F4647;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--secondary-color);
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgb(0, 243, 255, .5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 1.65vw;
+    text-shadow: 0 0 10px rgb(0, 243, 255, .5);
+}
+
+.hero {
+    background-image: url("../assets/images/hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.subtitle {
+    padding: 20px 20px;
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.bio-content,
+.work-content,
+.contact-me-content {
+    background-color: var(--secondary-color);
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 90%;
+    display: flex;
+    flex-wrap: initial;
+    align-items: center;
+}
+
+.title {
+    color: var(--primary-color);
+    width: 10%;
+}
+
+.bio {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-grid-container {
+    display: grid;
+    /* grid-template-columns: 180px 180px 180px 180px; */
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-template-columns: 6fr repeat(1, 2fr);
+    color: var(--secondary-color);
+}
+
+.work-item {
+    padding: 15px 0;
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-1 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+
+}
