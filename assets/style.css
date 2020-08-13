@@ -234,3 +234,9 @@ header nav ul li a:hover {
     font-size: 1.65vw;
 }
 
+.contact-list ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
