@@ -331,7 +331,7 @@ header nav ul li a:hover {
 
     .section-bio {
         padding: 0px;
-        height: 300px;
+        height: 350px;
         text-align: center;
     }
 
@@ -390,11 +390,11 @@ header nav ul li a:hover {
     }
 
     header nav ul li {
-        padding: 15px;
+        padding: 5px;
     }
 
     .section-bio {
-        height: 450px;
+        height: 600px;
     }
     .hero-subtitle {
        height: 200px;
