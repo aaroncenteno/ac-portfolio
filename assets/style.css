@@ -246,6 +246,9 @@ header nav ul li a:hover {
 }
 
 .work-5 {
+    background-image: url(./images/medea.jpg);
+    background-size: cover;
+    background-position: 80%;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
 }
@@ -403,7 +406,7 @@ header nav ul li a:hover {
         height: 1200px;
     }
     .work-grid-container {
-       grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+       grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
        grid-template-columns: 100px 100px;
     }
 
@@ -429,7 +432,7 @@ header nav ul li a:hover {
 
     .work-5 {
         grid-column: 1 / 4;
-        grid-row: 9 / 10;
+        grid-row: 9 / 11;
     }
 
  }
