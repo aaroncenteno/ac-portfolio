@@ -29,6 +29,6 @@ During this weeks challenge the grid element was very intimidating. Luckily, my 
 ### Michelle Lam https://github.com/michelleklam
 Provided great help to reviewing the code. 
 
-##Screen Shot of live portfolio
+## Screen Shot of live portfolio
 
-<img src="/assets/images/portfolio-screenshot.png>" height="400" alt="Screesnhot of Portfolio" />
+<img src="./assets/images/portfolio-screenshot.png>" height="400" alt="Screesnhot of Portfolio" />
