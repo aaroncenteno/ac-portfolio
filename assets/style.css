@@ -104,10 +104,22 @@ header nav ul li a:hover {
 }
 
 .subtitle {
-    padding: 20px 20px;
+    padding-right: 75px;
     color: var(--primary-color);
     font-size: 24px;
     text-shadow: 0 0 10px rgb(0, 243, 255, .5);
+}
+
+.subtitle ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.subtitle ul li {
+    padding: 20px;
 }
 
 /* Hero Ends */
@@ -292,12 +304,30 @@ header nav ul li a:hover {
         font-size: 20px;
     }
 
+    .subtitle {
+        padding: 0px;
+    }
+
+    .subtitle ul {
+        width: 100%;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .subtitle ul li {
+        padding: 10px;
+    }
+
     .hero-portrait, .hero-subtitle {
         width: 100%;
         align-items: center;
         justify-content: center;
         padding: 0px;
         text-align: center;
+    }
+
+    .contact-list {
+        padding: 0px;
     }
 }  
 
@@ -377,6 +407,10 @@ header nav ul li a:hover {
         grid-row: 3 / 4;
     }
 
+    .contact-list {
+        padding: 20px;
+    }
+
     .contact-list ul {
         justify-content: center;
     }
@@ -401,10 +435,19 @@ header nav ul li a:hover {
         padding: 5px 10px;
     }
 
+    .subtitle ul {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .subtitle li {
+        padding: 10px;
+    }
+
     .section-bio {
         height: 700px;
     }
-    
+
     .hero-subtitle {
        height: 200px;
     }
