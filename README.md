@@ -2,7 +2,7 @@
 
 ## Description
 
-This portfolio provides recent works and applications that I have completed both as a web developer and an audio technicia. It provides a description of my college career as well as my professioal career and what I am currently doing. Lastly, it provides methods of contact and a link to a pdf file of my resumé.
+This portfolio provides recent works and applications that I have completed both as a web developer and an audio technician. It provides a description of my college career as well as my professioal career and what I am currently doing. Lastly, it provides methods of contact and a link to a pdf file of my resumé.
 
 ### Technologies Used
 * HTML
@@ -30,7 +30,5 @@ During this weeks challenge the grid element was very intimidating. Luckily, my 
 Provided great help to reviewing the code. 
 
 ## Screen Shot of live portfolio
-
-<img src="./assets/images/portfolio-screenshot.png>" height="400" alt="Screesnhot of Portfolio" />
 
 ![Screenshot of live portfolio](/assets/images/portfolio-screenshot.png "Live Portfolio")
