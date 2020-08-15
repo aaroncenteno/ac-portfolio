@@ -174,8 +174,8 @@ header nav ul li a:hover {
     width: 100%;
     display: grid;
     grid-template-rows: 130px 5em 130px;
-    grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     color: var(--tertiary-color);
 }
 
