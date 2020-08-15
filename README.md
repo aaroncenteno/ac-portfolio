@@ -32,3 +32,5 @@ Provided great help to reviewing the code.
 ## Screen Shot of live portfolio
 
 <img src="./assets/images/portfolio-screenshot.png>" height="400" alt="Screesnhot of Portfolio" />
+
+![Screenshot of live portfolio](/assets/images/portfolio-screenshot.png "Live Portfolio")
