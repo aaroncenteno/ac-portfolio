@@ -2,7 +2,7 @@
 
 ## Description
 
-This portfolio provides recent works and applications that I have completed both as a web developer and an audio technician. It provides a description of my college career as well as my professional career and what I am currently doing. Lastly, it provides methods of contact and a link to a pdf file of my resumé.
+The project of the week the week was to create a professional portfolio for myself without the help of having a base code. This portfolio provides recent works and applications that I have completed both as a web developer and an audio technician. It provides a description of my college career as well as my professional career and what I am currently doing. Lastly, it provides methods of contact and a link to a pdf file of my resumé.
 
 ### Technologies Used
 * HTML
