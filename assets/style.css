@@ -38,7 +38,7 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 36px;
     color: var(--primary-color);
     margin: 0;
@@ -52,6 +52,7 @@ header a {
 
 header nav {
     margin: 7px 0;
+    padding-right: 33px;
 }
 
 header nav ul {
@@ -107,6 +108,7 @@ header nav ul li a:hover {
     padding-right: 75px;
     color: var(--primary-color);
     font-size: 24px;
+    font-weight: bold;
     text-shadow: 0 0 10px rgb(0, 243, 255, .5);
 }
 
@@ -139,6 +141,7 @@ header nav ul li a:hover {
     margin-left: 10px;
     margin-right: 10px;
     width: 25%;
+    text-shadow: 0 0 10px rgb(0, 243, 255, .5);
 }
 
 /* Right side content styling */
@@ -292,6 +295,10 @@ header nav ul li a:hover {
     header h1 {
         width: 100%;
         text-align: center;
+    }
+
+    header nav {
+        padding: 0px;
     }
 
     header nav ul {
