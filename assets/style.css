@@ -200,15 +200,15 @@ header nav ul li a:hover {
 /* Hover Transition */
 .hover-effect::after {
     content: "";
-     height: 100%;
-     width: 100%;
-     background: linear-gradient(rgba(0, 243, 255, 0.6), rgba(0, 135, 245, 0.8));
-     position: absolute;
-     top: 0;
-     left: 0;
-     opacity: 0;
-     transition: 0.5s;
-     border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 243, 255, 0.6), rgba(0, 135, 245, 0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 22px;
 }
 
 .work-item:hover .hover-effect::after {
